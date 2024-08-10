@@ -1,0 +1,30 @@
+from .. type import TYPE
+
+from . model import MODEL
+
+class MODEL_SIZED(TYPE):
+
+	SUPER = MODEL
+
+	model_sized = True
+
+	types = (
+
+		"CANNONBALL_LARGE",
+		"CANNONBALL_MEDIUM",
+		"CANNONBALL_SMALL",
+
+		"ENGINE_LARGE",
+		"ENGINE_SMALL",
+
+		"METALCRATE_LARGE",
+		"METALCRATE_MEDIUM",
+		"METALCRATE_SMALL",
+
+		"NAIL_LARGE",
+		"NAIL_MEDIUM",
+		"NAIL_SMALL",
+
+		"STONEBALL"
+
+	)

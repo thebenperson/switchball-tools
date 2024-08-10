@@ -1,0 +1,3 @@
+Each Blender object has a property "type".
+This property allows the plugin to lookup what its base classes are so that
+the correct pannels can be displayed.
